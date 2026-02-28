@@ -1,29 +1,17 @@
-# Calculator 🧮
+## Calculator 🧮
 
 A Java calculator built with Swing, featuring basic math operations and three switchable themes: light, dark, and pink.
 
-## Tech
+Built with Java 17+, Swing and [exp4j](https://www.objecthunter.net/exp4j/) for evaluating math expressions.
 
-- Java 17+
-- Swing
-- [exp4j](https://www.objecthunter.net/exp4j/) — for evaluating math expressions
-
-## Features
-
-- Addition, subtraction, multiplication, division and percentage
-- `C` to clear everything, `<-` to delete the last character
-- Theme switcher via the `@` button at the top
-
-## Themes
+**Features:** addition, subtraction, multiplication, division and percentage. Use `C` to clear, `<-` to delete, and `@` to switch themes.
 
 | Light | Dark | Pink |
 |---|---|---|
 | ![](./assets/light.png) | ![](./assets/dark.png) | ![](./assets/pink.png) |
 
-## Running locally
-
+**Running locally:**
 ```bash
 git clone https://github.com/sofiavitorino/calculator.git
 ```
-
-Make sure you have Java 17+ installed. The exp4j dependency needs to be on the classpath — if you're using Maven or Gradle, just import it normally.
+Java 17+ required. Add exp4j to your classpath — or just import it via Maven/Gradle.
