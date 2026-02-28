@@ -1,47 +1,29 @@
-# 🧮 Calculator
+# Calculator 🧮
 
-Uma calculadora simples desenvolvida em Java usando Swing para a interface gráfica.  
-Ela suporta operações matemáticas básicas e troca de tema entre **Claro**, **Escuro** e **Rosa** 🌙🌞🎀
+A Java calculator built with Swing, featuring basic math operations and three switchable themes: light, dark, and pink.
 
-## 💻 Tecnologias usadas
+## Tech
 
 - Java 17+
-- Swing (interface gráfica)
-- [exp4j](https://www.objecthunter.net/exp4j/) (para avaliar expressões matemáticas)
+- Swing
+- [exp4j](https://www.objecthunter.net/exp4j/) — for evaluating math expressions
 
-## 🎨 Temas disponíveis
+## Features
 
-- Light Theme (Claro)
-- Dark Theme (Escuro)
-- Pink Theme (Rosa)
+- Addition, subtraction, multiplication, division and percentage
+- `C` to clear everything, `<-` to delete the last character
+- Theme switcher via the `@` button at the top
 
-Você pode trocar os temas clicando no botão `@` no topo da calculadora!
+## Themes
 
-## 🧠 Funcionalidades
+| Light | Dark | Pink |
+|---|---|---|
+| ![](./assets/light_calc.png) | ![](./assets/dark_calc.png) | ![](./assets/pink_calc.png) |
 
-- Operações: soma, subtração, multiplicação, divisão, porcentagem
-- Botão `C` para limpar tudo
-- Botão `<-` para apagar o último caractere
-- Avaliação automática da expressão usando a biblioteca exp4j
-- Suporte a múltiplos temas
+## Running locally
 
-## 🖼️ Interface
+```bash
+git clone https://github.com/sofiavitorino/calculator.git
+```
 
-| Claro                   | Escuro                 | Rosa                   |
-|-------------------------|------------------------|------------------------|
-| ![](./assets/light.png) | ![](./assets/dark.png) | ![](./assets/pink.png) |
-
-## 🚀 Como executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/sofiavitorino/calculator.git
-
-## 🤝 Contribuições & Sugestões
-
-Contribuições são bem-vindas ✨  
-Sinta-se à vontade para abrir uma issue com sugestões de melhoria, correções ou novas funcionalidades que possam tornar o projeto mais completo.
-
-## 💡 Melhorias Futuras
-
-- Adicionar funcionalidades de uma calculadora científica
+Make sure you have Java 17+ installed. The exp4j dependency needs to be on the classpath — if you're using Maven or Gradle, just import it normally.
