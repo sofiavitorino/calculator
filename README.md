@@ -18,7 +18,7 @@ A Java calculator built with Swing, featuring basic math operations and three sw
 
 | Light | Dark | Pink |
 |---|---|---|
-| ![](./assets/light_calc.png) | ![](./assets/dark_calc.png) | ![](./assets/pink_calc.png) |
+| ![](./assets/light.png) | ![](./assets/dark.png) | ![](./assets/pink.png) |
 
 ## Running locally
 
