@@ -1,4 +1,4 @@
-## Calculator 🧮
+## Calculator 
 
 A Java calculator built with Swing, featuring basic math operations and three switchable themes: light, dark, and pink.
 
